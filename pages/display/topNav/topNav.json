@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "顶部导航栏",
+  "usingComponents": {
+    "top-nav":"/components/topNav/topNav"
+  }
+}

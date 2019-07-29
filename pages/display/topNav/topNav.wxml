@@ -1,0 +1,4 @@
+<!--pages/display/topNav/topNav.wxml-->
+<view>
+  <top-nav></top-nav>
+</view>

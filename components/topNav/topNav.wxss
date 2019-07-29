@@ -1,0 +1,9 @@
+/* components/topNav/topNav.wxss */
+.topNavPanel{
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  top: 0rpx;
+  z-index: 100;
+  background: black;
+}

@@ -1,0 +1,9 @@
+<!--components/topNav/topNav.wxml-->
+<view class='topNavPanel'>
+  <view class='topList'>
+    <view class='topItem'>
+      <view class='item-text'></view>
+      <view class='item-angle'></view>
+    </view>
+  </view>
+</view>
