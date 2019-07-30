@@ -55,7 +55,7 @@ Page({
 
   // 工具类
   setSelectItem:function(type){
-    if (this.type) {
+    if (type) {
       this.setData({
         title: "无下划线",
       })
