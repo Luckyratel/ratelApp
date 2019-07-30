@@ -1,4 +1,8 @@
 <!--pages/display/topNav/topNav.wxml-->
 <view>
-  <top-nav></top-nav>
+  <view class='panel'>
+    <top-nav list="{{list}}" lineStyle="{{lineStyle}}" selectIndex="{{selectIndex}}" bindselectTab="selectTab"></top-nav>
+  </view>
+  <view class='content'>{{selectItem}}</view>
+  <button bindtap='selectLine' class='btn'> {{title}}</button>
 </view>

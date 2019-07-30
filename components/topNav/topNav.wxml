@@ -1,8 +1,12 @@
 <!--components/topNav/topNav.wxml-->
 <view class='topNavPanel'>
-  <view class='topList'>
-    <view class='topItem'>
-      <view class='item-text'></view>
+  <view class='topList' style="box-shadow: 0px 0px {{lineStyle?'0px':'2px'}} 0px #cdcdcd;">
+    <view class='topItem'  wx:for="{{list}}" wx:key="">
+      <view class='item-text' bindtap='selectTab' style="color:{{selectTab==index?activeColor:defaultColor}}; border-bottom: 1px solid {{selectTab==index?activeColor:'#FFFFFF'}}" data-index='{{index}}' wx:if="{{lineStyle}}">{{item}}</view>
+
+      <view class='item-text' bindtap='selectTab' style="color:{{selectTab==index?activeColor:defaultColor}};" data-index='{{index}}' wx:else>{{item}}</view>
+      
+      <!-- 数字角标 -->
       <view class='item-angle'></view>
     </view>
   </view>
