@@ -1,0 +1,14 @@
+<!--components/basicItem/basicItem.wxml-->
+<view class='basicItemPanel' catchtap='goPage'>
+  <view class='panel-left'>
+    <view class='left-text'>{{title}}</view>
+  </view>
+  <view class='panel-middle' wx:if="{{label}}">
+    <view class='middle-text'>{{label}}</view>
+  </view>
+  <view class='panel-right'>
+    <view class='right-icon'>
+      <image class='icon' src='{{icon}}'></image>
+    </view>
+  </view>
+</view>

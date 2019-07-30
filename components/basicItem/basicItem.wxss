@@ -1,0 +1,33 @@
+/* components/basicItem/basicItem.wxss */
+.basicItemPanel{
+  height: 100%;
+  width: 100%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.basicItemPanel .panel-left{
+  margin-left: 20rpx;
+  color: #4d4d4d;
+  font-size: 28rpx;
+}
+.basicItemPanel .panel-right{
+  position: absolute;
+  height: 100%;
+  right: 20rpx;
+}
+.panel-right .right-icon{
+  height: 100%;
+}
+.right-icon .icon{
+  position: relative;
+  top: calc(50% - 20rpx);
+  height: 40rpx;
+  width: 40rpx;  
+}
+.basicItemPanel .panel-middle{
+  position: absolute;
+  right: 80rpx;
+  color: #4d4d4d;
+}

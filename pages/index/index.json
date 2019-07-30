@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "navigationBarTitleText": "ratel组件",
+  "usingComponents": {
+    "basic-item":"/components/basicItem/basicItem"
+  }
 }
