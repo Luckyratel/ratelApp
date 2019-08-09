@@ -8,4 +8,8 @@
     <basic-item title="侧滑删除" label="" bindgopageTab="goDeletePage"></basic-item>
   </view>
 
+   <view class='basicItem'>
+    <basic-item title="滑动居中" label="" bindgopageTab="goDeletePage"></basic-item>
+  </view>
+
 </view>
