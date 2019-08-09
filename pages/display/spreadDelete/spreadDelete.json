@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "侧滑删除",
+  "usingComponents": {
+    "spread": "/components/spreadDelete/spreadDelete"
+  }
+}

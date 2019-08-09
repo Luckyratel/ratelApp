@@ -1,0 +1,4 @@
+<!--components/numAngle/numAngle.wxml-->
+<view class="quantityPanel">
+  <view class="text" wx:if="quantity>0">{{quantity}}</view>
+</view>

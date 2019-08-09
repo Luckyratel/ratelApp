@@ -1,0 +1,8 @@
+<!--pages/display/spreadDelete/spreadDelete.wxml-->
+<view class="container">
+  <view class="list">
+    <view class="item" wx:for="{{list}}" wx:key="{{item.value}}" >
+      <spread itemInfo="{{item}}" binddeletetab="deleteTab" ></spread>
+    </view>
+  </view>
+</view>

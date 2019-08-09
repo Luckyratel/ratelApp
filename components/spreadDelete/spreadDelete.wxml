@@ -1,0 +1,7 @@
+<!--components/spreadDelete/spreadDelete.wxml-->
+<view class="spreadPanel">
+  <view class="content" animation="{{animationData}}" bindtouchstart="touchStart" bindtouchend="touchEnd" >
+    <view class="panelLabel">侧滑删除项{{itemInfo.value}}</view>
+  </view>
+  <view class="opreation" animation="{{animationData}}" catchtap="deleteTab">删除</view>
+</view>

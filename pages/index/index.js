@@ -14,5 +14,10 @@ Page({
     wx.navigateTo({
       url: '/pages/display/topNav/topNav',
     })
+  },
+  goDeletePage:function(){
+    wx.navigateTo({
+      url: '/pages/display/spreadDelete/spreadDelete',
+    })
   }
 })

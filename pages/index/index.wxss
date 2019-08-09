@@ -4,6 +4,7 @@
   height: 100%;
 }
 .container .basicItem{
+  position: relative;
   height: 100rpx;
   width: 100%;
   border-top: 1px solid #F3F3F3;

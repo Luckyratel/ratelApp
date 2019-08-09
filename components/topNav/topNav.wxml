@@ -7,7 +7,9 @@
       <view class='item-text' bindtap='selectTab' style="color:{{selectTab==index?activeColor:defaultColor}};" data-index='{{index}}' wx:else>{{item}}</view>
       
       <!-- 数字角标 -->
-      <view class='item-angle'></view>
+      <view class='item-angle'>
+        <angle quantity="1"> </angle>
+      </view>
     </view>
   </view>
 </view>

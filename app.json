@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/display/topNav/topNav"
+    "pages/display/topNav/topNav",
+    "pages/display/spreadDelete/spreadDelete"
   ],
   "window": {
     "backgroundTextStyle": "light",

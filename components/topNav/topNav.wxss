@@ -28,3 +28,9 @@
   line-height: 100rpx;
   padding: 0rpx 14rpx;
 }
+.topItem .item-angle{
+  position: absolute;
+  z-index: 5;
+  top: 10rpx;
+  right: -10rpx;
+}

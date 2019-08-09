@@ -3,4 +3,9 @@
   <view class='basicItem'>
     <basic-item title="顶部导航栏" label="" bindgopageTab="goPage"></basic-item>
   </view>
+
+  <view class='basicItem'>
+    <basic-item title="侧滑删除" label="" bindgopageTab="goDeletePage"></basic-item>
+  </view>
+
 </view>

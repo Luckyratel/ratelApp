@@ -1,0 +1,12 @@
+/* pages/display/spreadDelete/spreadDelete.wxss */
+.container{
+  height: 100%;
+  width: 100%;
+}
+.container .list{
+  height: 100%;
+  width: 100%;
+}
+.list .item{
+  width: 100%;
+}
