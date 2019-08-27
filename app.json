@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/display/topNav/topNav",
-    "pages/display/spreadDelete/spreadDelete"
+    "pages/display/spreadDelete/spreadDelete",
+    "pages/display/waterfall-display/waterfall-display"
   ],
   "window": {
     "backgroundTextStyle": "light",

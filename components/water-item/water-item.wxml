@@ -1,0 +1,13 @@
+<!--components/water-item/water-item.wxml-->
+<view class="itemPanel">
+  <view class="item-img">
+    <image class="img" mode="widthFix"></image>
+  </view>
+  <view class="item-content"></view>
+  <view class="item-user">
+    <view class="user-img"> 
+     <image class="img-icon"></image>
+    </view>
+    <view class="user-name">测试</view>
+  </view>
+</view>

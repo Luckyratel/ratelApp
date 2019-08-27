@@ -1,0 +1,5 @@
+<!--components/waterfall/waterfall.wxml-->
+<view class="listPanel">
+  <view class="leftList" ></view>
+  <view class="rightlist"></view>
+</view>

@@ -1,0 +1,17 @@
+/* components/water-item/water-item.wxss */
+.itemPanel{
+  width: 100%;
+}
+.itemPanel .item-img{
+  width: 100%;
+}
+.item-img .img{
+  background: rebeccapurple;
+}
+.itemPanel .item-content{
+  height: 40rpx;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}

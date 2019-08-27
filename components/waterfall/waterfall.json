@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "water-item":"/components/water-item/water-item"
+  }
+}

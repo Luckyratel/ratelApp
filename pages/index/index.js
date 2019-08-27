@@ -19,5 +19,10 @@ Page({
     wx.navigateTo({
       url: '/pages/display/spreadDelete/spreadDelete',
     })
+  },
+  goWaterFall:function(){
+    wx.navigateTo({
+      url: '/pages/display/waterfall-display/waterfall-display',
+    })
   }
 })
