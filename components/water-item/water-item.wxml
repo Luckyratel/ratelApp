@@ -1,13 +1,17 @@
 <!--components/water-item/water-item.wxml-->
 <view class="itemPanel">
   <view class="item-img">
-    <image class="img" mode="widthFix"></image>
+    <image class="img" mode="widthFix" src="{{info.imgs}}"></image>
   </view>
-  <view class="item-content"></view>
-  <view class="item-user">
-    <view class="user-img"> 
-     <image class="img-icon"></image>
+  <view class="item-content">愿你慢慢长大，愿你有好运，如果没有，希望你在不幸中学会慈悲；愿你被很多人爱，如果没有，希望你在寂寞中学会宽容。</view>
+  <view class="item-praise">
+    <view class="praisePanel"> 
+      <view class="praise">
+         <image class="icon"></image>
+      </view>
+      <view class="praiseQuantity">99</view>
     </view>
-    <view class="user-name">测试</view>
+    
+    <view class="user-name">{{info.label}}</view>
   </view>
 </view>

@@ -1,5 +1,20 @@
 <!--components/waterfall/waterfall.wxml-->
+<!-- 利用image中loading，将图片交错分成两列-->
+<view class="imgLoad" >
+  <block wx:for="{{list}}" wx:key="">
+    <image bindload="loading" data-index="{{index}}" src="{{item.imgs}}" class="display"></image>
+  </block>
+</view>
+
 <view class="listPanel">
-  <view class="leftList" ></view>
-  <view class="rightlist"></view>
+  <view class="leftList">
+    <view class="item" wx:for="{{left}}" wx:key="" style="margin-bottom: 20rpx;">
+      <water-item info="{{item}}"></water-item>
+    </view>
+  </view>
+  <view class="rightList">
+    <view class="item" wx:for="{{right}}" wx:key="" style="margin-bottom: 20rpx; ">
+      <water-item info="{{item}}"></water-item>
+    </view>
+  </view>
 </view>

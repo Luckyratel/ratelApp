@@ -1,12 +1,15 @@
 /* components/water-item/water-item.wxss */
 .itemPanel{
   width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF;
 }
 .itemPanel .item-img{
   width: 100%;
 }
 .item-img .img{
-  background: rebeccapurple;
+  width: 100%;
+  /* background: rebeccapurple; */
 }
 .itemPanel .item-content{
   height: 40rpx;
@@ -14,4 +17,56 @@
   padding: 20rpx;
   box-sizing: border-box;
   overflow: hidden;
+}
+.itemPanel .item-content{
+  height: 82rpx;
+  padding: 20rpx;
+  width: 100%;
+  font-size: 26rpx;
+  background: #FFFFFF;
+  line-height: 30rpx;
+  margin: 4rpx 0;
+
+/* 小程序多行省略 */
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+}
+.itemPanel .item-praise{
+  height: 60rpx;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+}
+.item-praise .praisePanel{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.praisePanel .praise{
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+.praise .icon{
+  height: 100%;
+  width: 100%;
+  background: rebeccapurple;
+  border-radius: 50%;
+}
+.praisePanel .praiseQuantity{
+  margin-left: 10rpx;
+  color: #AAAAAA;
+}
+.item-praise .user-name{
+  position: absolute;
+  right: 20rpx;
+  color: #AAAAAA;
+  font-size: 24rpx;
 }

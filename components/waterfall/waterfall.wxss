@@ -1,1 +1,18 @@
 /* components/waterfall/waterfall.wxss */
+.listPanel{
+  width: 100%;
+  box-sizing: border-box;
+  /* padding: 20rpx; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.listPanel .leftList,.rightList{
+  width: 45%;
+  /* background: rebeccapurple; */
+}
+.item{
+  width: 100%;
+}
+.imgLoad{
+  display: none;
+}

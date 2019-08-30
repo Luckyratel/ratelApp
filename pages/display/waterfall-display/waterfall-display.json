@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "瀑布流布局",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark",
   "usingComponents": {
     "waterfall":"/components/waterfall/waterfall"
   }

@@ -1,2 +1,4 @@
 <!--pages/display/waterfall-display/waterfall-display.wxml-->
-<text>pages/display/waterfall-display/waterfall-display.wxml</text>
+<view>
+  <waterfall list="{{list}}" reDisplay="{{reDisplay}}"></waterfall>
+</view>
