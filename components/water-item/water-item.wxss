@@ -57,7 +57,7 @@
 .praise .icon{
   height: 100%;
   width: 100%;
-  background: rebeccapurple;
+  /* background: rebeccapurple; */
   border-radius: 50%;
 }
 .praisePanel .praiseQuantity{

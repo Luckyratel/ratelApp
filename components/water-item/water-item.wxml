@@ -7,7 +7,7 @@
   <view class="item-praise">
     <view class="praisePanel"> 
       <view class="praise">
-         <image class="icon"></image>
+         <image class="icon" src="{{praiseImg}}" bindtap="setPraise"></image>
       </view>
       <view class="praiseQuantity">99</view>
     </view>

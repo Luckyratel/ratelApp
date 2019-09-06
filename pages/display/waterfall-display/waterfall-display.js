@@ -59,7 +59,9 @@ Page({
     this.setData({
       list:[],
       list2: this.data.list3,
+      reDisplay:true, //让组件重新
     },()=>{
+      // 模拟从后台获取数据
       this.setData({
         list: this.data.list1,
       }, () => {
