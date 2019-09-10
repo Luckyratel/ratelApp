@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/display/topNav/topNav",
     "pages/display/spreadDelete/spreadDelete",
-    "pages/display/waterfall-display/waterfall-display"
+    "pages/display/waterfall-display/waterfall-display",
+    "pages/display/swiperCenter/swiperCenter"
   ],
   "window": {
     "backgroundTextStyle": "light",

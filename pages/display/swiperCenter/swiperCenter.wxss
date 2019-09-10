@@ -1,0 +1,65 @@
+/* pages/display/swiperCenter/swiperCenter.wxss */
+
+.swiperPanel {
+  height: 100rpx;
+  width: 100%;
+  background: #fff;
+}
+
+.swiperPanel .swiper {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  white-space: nowrap;
+  background: #f3f3f3;
+}
+
+.swiper .item {
+  height: 100%;
+  width: auto;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  text-align: center;
+  display: inline-block; 
+  color: orange;
+  background: #f3f3f3;
+}
+.swiper .item.selected{
+  background: orange;
+  color: #fff;
+}
+.line{
+  height: 68rpx;
+  width: 1px;
+  box-sizing: border-box;
+  padding-top: 16rpx;
+  display: inline-block;
+  background: #f3f3f3;
+}
+
+.borderLeft{
+  border-left: 1px solid orange;
+}
+
+.item .time {
+  height: 40rpx;
+  line-height: 60rpx;
+  text-align: center;
+  width: auto;
+  font-size: 26rpx;
+}
+
+.item .label {
+  width: auto;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 26rpx;
+}
+
+/*隐藏滚动条*/
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}

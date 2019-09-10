@@ -9,7 +9,7 @@
   </view>
 
   <view class='basicItem'>
-    <basic-item title="滑动居中" label="" bindgopageTab="goDeletePage"></basic-item>
+    <basic-item title="滑块选中居中" label="" bindgopageTab="goSwiperCenter"></basic-item>
   </view>
 
   <view class='basicItem'>

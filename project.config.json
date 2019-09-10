@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": -1,
@@ -53,6 +53,14 @@
 					"id": -1,
 					"name": "waterfall-display",
 					"pathName": "pages/display/waterfall-display/waterfall-display",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "swiperCenter",
+					"pathName": "pages/display/swiperCenter/swiperCenter",
+					"query": "",
 					"scene": null
 				}
 			]

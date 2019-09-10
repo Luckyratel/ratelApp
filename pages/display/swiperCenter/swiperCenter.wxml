@@ -1,0 +1,16 @@
+<!--pages/display/swiperCenter/swiperCenter.wxml-->
+
+<view class="swiperPanel">
+  <scroll-view id="scrollPanel" class="swiper" scroll-x scroll-into-view="{{'item'+moveTo}}" >
+  <block wx:for="{{list}}" wx:key >
+    <block wx:if="{{selectIndex!=index}}">
+      <view class="line {{index!=0?'borderLeft':''}}" wx:if="{{(index-1)!=selectIndex}}"></view>
+    </block>
+    
+    <view class="item {{item.start?'selected':''}}" bindtap="setStartItem" data-index="{{index}}" id="{{'item'+index}}">
+      <view class="time ">{{item.time}}</view>
+      <view class="label">{{item.start?'限时抢购':'敬请期待'}}</view>
+    </view> 
+  </block>
+  </scroll-view>
+</view>
