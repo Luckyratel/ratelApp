@@ -1,0 +1,6 @@
+<!--pages/display/quantityEdit/quantityEdit.wxml-->
+<view class="container">
+  <view class="quantityPanel">
+    <quantity></quantity>
+  </view>
+</view>

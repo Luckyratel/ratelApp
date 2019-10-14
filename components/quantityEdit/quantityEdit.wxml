@@ -1,0 +1,6 @@
+<!--components/quantityEdit/quantityEdit.wxml-->
+<view class="edit-panel">
+  <view class="sub" bindtap="subTab"> - </view>
+  <view class="quantity"> <input type="number" value="{{quantity}}"></input> </view>
+  <view class="add" bindtap="addTab"> + </view>
+</view>

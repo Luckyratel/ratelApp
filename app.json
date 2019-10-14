@@ -4,7 +4,8 @@
     "pages/display/topNav/topNav",
     "pages/display/spreadDelete/spreadDelete",
     "pages/display/waterfall-display/waterfall-display",
-    "pages/display/swiperCenter/swiperCenter"
+    "pages/display/swiperCenter/swiperCenter",
+    "pages/display/quantityEdit/quantityEdit"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -13,7 +13,10 @@
   </view>
 
   <view class='basicItem'>
-    <basic-item title="瀑布流" label="" bindgopageTab="goWaterFall"></basic-item>
+    <basic-item title="瀑布流布局" label="" bindgopageTab="goWaterFall"></basic-item>
+  </view>
+  <view class='basicItem'>
+    <basic-item title="数量调节器" label="" bindgopageTab="goQuantityEdit"></basic-item>
   </view>
 
 </view>

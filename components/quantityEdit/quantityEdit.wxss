@@ -1,0 +1,28 @@
+/* components/quantityEdit/quantityEdit.wxss */
+.edit-panel{
+  height: 80rpx;
+  width: 320rpx;
+  display: flex;
+  border-radius: 10rpx;
+  border: 1px solid #F3F3F3;
+}
+.edit-panel .sub,.add{
+  height: 80rpx;
+  width: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+}
+.edit-panel .quantity{
+  width: 160rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-left: 1px solid #F3F3F3;
+  border-right: 1px solid #F3F3F3;
+  box-sizing: border-box;
+}
+.quantity input{
+  height: 100%;
+  width: 100%;
+  line-height: 80rpx;
+  text-align: center;
+}

@@ -33,5 +33,11 @@ Page({
     })
   },
 
+  goQuantityEdit: function () {
+    wx.navigateTo({
+      url: '/pages/display/quantityEdit/quantityEdit',
+    })
+  },
+
  
 })

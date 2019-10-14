@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "数量调节器",
+  "usingComponents": {
+    "quantity": "/components/quantityEdit/quantityEdit"
+  }
+}
