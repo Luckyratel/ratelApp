@@ -1,0 +1,4 @@
+/* components/qrCode/qrCode.wxss */
+.qrCode{
+  background: #ffffff;
+}

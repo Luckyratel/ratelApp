@@ -38,6 +38,11 @@ Page({
       url: '/pages/display/quantityEdit/quantityEdit',
     })
   },
+  goQrCode: function() {
+    wx.navigateTo({
+      url: '/pages/display/qrCode/qrCode',
+    })
+  }
 
  
 })

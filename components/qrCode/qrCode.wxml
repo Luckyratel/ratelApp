@@ -1,0 +1,6 @@
+<!--components/qrCode/qrCode.wxml-->
+<view class="qrCode">
+  <view class="code-panel" style="height:{{codeHeight}}px;width:{{codeWidth}}px; margin: 0 auto;">
+    <canvas canvas-id="QrCode" style="height: 100%; width:100%;"></canvas>
+  </view>
+</view>

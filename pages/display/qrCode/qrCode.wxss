@@ -1,0 +1,32 @@
+/* pages/display/qrCode/qrCode.wxss */
+.panel{
+  width: 100%;
+  background: #fff;
+  padding-bottom: 100rpx;
+}
+.panel .input{
+  height: 80rpx;
+  width: 100%;
+  margin-top: 100rpx;
+}
+.input input{
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 26rpx;
+  border: 1px solid #f3f3f3;
+  box-sizing: border-box;
+  padding-left: 20rpx
+}
+.panel .makeCode{
+  height: 80rpx;
+  width: 300rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 0 auto;
+  background: green;
+  color: #fff;
+  font-size: 28rpx;
+  border-radius: 8rpx;
+  margin-top: 50rpx;
+}

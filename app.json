@@ -5,7 +5,8 @@
     "pages/display/spreadDelete/spreadDelete",
     "pages/display/waterfall-display/waterfall-display",
     "pages/display/swiperCenter/swiperCenter",
-    "pages/display/quantityEdit/quantityEdit"
+    "pages/display/quantityEdit/quantityEdit",
+    "pages/display/qrCode/qrCode"
   ],
   "window": {
     "backgroundTextStyle": "light",
