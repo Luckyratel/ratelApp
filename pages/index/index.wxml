@@ -19,8 +19,12 @@
     <basic-item title="数量调节器" label="" bindgopageTab="goQuantityEdit"></basic-item>
   </view>
 
-   <view class='basicItem'>
+  <view class='basicItem'>
     <basic-item title="二维码" label="" bindgopageTab="goQrCode"></basic-item>
+  </view>
+
+  <view class='basicItem'>
+    <basic-item title="条形码" label="" bindgopageTab="goBarCode"></basic-item>
   </view>
 
 </view>

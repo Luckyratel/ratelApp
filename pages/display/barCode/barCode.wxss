@@ -1,0 +1,46 @@
+/* pages/display/barCode/barCode.wxss */
+page{
+  height: 100%;
+}
+.container{
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
+.container .code-panel{
+  box-sizing: border-box;
+  padding: 40rpx 0rpx;
+}
+.code-panel .show-panel{
+  height: 200rpx;
+  width: 700rpx;
+  margin: 0 auto;
+}
+
+.container .input-panel{
+  height: 80rpx;
+  width: 100%;
+  margin-top: 20rpx
+}
+.input-panel input {
+  width: 80%;
+  margin-left: 10%;
+  height: 100%;
+  line-height: 80rpx;
+  font-size: 26rpx;
+  color: #323232;
+  border: 1px solid #f3f3f3;
+  border-radius: 8rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+.container .btn-panel{
+  height: 80rpx;
+  width: 60%;
+  color: #ffffff;
+  background: green;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 26rpx;
+  margin-top: 40rpx;
+}

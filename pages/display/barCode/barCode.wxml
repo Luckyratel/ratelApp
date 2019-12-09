@@ -1,0 +1,10 @@
+<!--pages/display/barCode/barCode.wxml-->
+<view class="container">
+  <view class="code-panel" wx:if="{{codeShow}}">
+    <view class="show-panel">
+      <canvas canvas-id="barcode" style="height:100%; width: 100%;"></canvas>
+    </view>
+  </view>
+  <view class="input-panel"> <input placeholder="请输入条形码的字符" bindinput="setCodeStr"></input> </view>
+  <view class="btn-panel" bindtap="makeCode">生成条形码</view>
+</view>

@@ -6,7 +6,8 @@
     "pages/display/waterfall-display/waterfall-display",
     "pages/display/swiperCenter/swiperCenter",
     "pages/display/quantityEdit/quantityEdit",
-    "pages/display/qrCode/qrCode"
+    "pages/display/qrCode/qrCode",
+    "pages/display/barCode/barCode"
   ],
   "window": {
     "backgroundTextStyle": "light",
