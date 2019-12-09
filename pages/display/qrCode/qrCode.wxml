@@ -1,7 +1,9 @@
 <!--pages/display/qrCode/qrCode.wxml-->
 <view class="panel">
-  <view class="content" wx:if="{{code}}">
+  <view class="content" style="min-height: 10rpx;">
+  <block wx:if="{{code}}">
     <code code="{{code}}"></code>
+  </block>
   </view>
   <view class="input"> <input placeholder="请输入字符串" bindinput="setCode"></input> </view>
   <view class="makeCode" bindtap="makeCode">生成二维码</view>

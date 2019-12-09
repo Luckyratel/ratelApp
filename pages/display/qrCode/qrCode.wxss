@@ -2,13 +2,16 @@
 .panel{
   width: 100%;
   background: #fff;
+  height: 100%;
   padding-bottom: 100rpx;
+  overflow: hidden;
 }
 .panel .input{
   height: 80rpx;
   width: 100%;
   margin-top: 100rpx;
 }
+
 .input input{
   height: 100%;
   width: 80%;

@@ -18,6 +18,19 @@ Component({
       value: '123456',
     }
   },
+  observers:{
+    'code':function(code){
+      var qrcode = new QRCode('QrCode', {
+        usingIn: this,
+        height: 200,
+        width: 200,
+        text: code,
+        colorDark: "#000000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H,
+      })
+    }
+  },
 
   /**
    * 组件的初始数据
@@ -26,15 +39,7 @@ Component({
 
   },
   attached:function(){
-    var qrcode = new QRCode('QrCode',{
-      usingIn: this,
-      height: 200,
-      width: 200,
-      text: "123456",
-      colorDark: "#000000",
-      colorLight: "#ffffff",
-      correctLevel: QRCode.CorrectLevel.H,
-    })
+    
   },
   /**
    * 组件的方法列表
