@@ -1,0 +1,17 @@
+<!--components/progress/progress.wxml-->
+<view class="progress">
+  <view class="pro-panel">
+    <view class="pro-bar"></view>
+    <block wx:for="{{list}}" wx:key="*this">
+      <view class="point {{index <= passPoint ? 'passed' : ''}}" style="left: calc({{index*leftRate}}% - 20rpx);"></view>
+    </block>
+    <view class="point {{passPoint >= list.length? 'passed': ''}}" style="left: calc(100% - 20rpx);"></view>
+
+    <block wx:for="{{list}}" wx:key="*this">
+      <view class="pointText" wx:if="{{index <= passPoint }}" style="left: calc({{index*leftRate}}% - 30rpx);">第{{index+1}}步</view>
+    </block>
+    <view class="pointText" wx:if="{{passPoint >= list.length}}" style="left: calc(100% - 30rpx);">完成</view>
+
+    <view class="pro-bar-pro" animation="{{animation}}"></view>
+  </view>
+</view>

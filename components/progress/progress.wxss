@@ -1,0 +1,51 @@
+/* components/progress/progress.wxss */
+.progress{
+  width: calc(100% - 80rpx);
+  margin-left: 40rpx;
+  box-sizing: border-box;
+  padding: 40rpx 0rpx; 
+  height: 84rpx;
+}
+.pro-panel {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+}
+.pro-panel .pro-bar{
+  height: 4rpx;
+  width: 100%;
+  background: #ffffff;
+}
+.pro-bar-pro {
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  z-index: 5;
+  height: 4rpx;
+  width: 100%;
+  background: #ffffff;
+}
+.point{
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 40rpx;
+  border:1px solid #f3f3f3;
+  position: absolute;
+  background: #ffffff;
+  top: -20rpx;
+  z-index: 10;
+}
+.point.passed{
+  background: green;
+}
+.pointText{
+
+  position: absolute;
+  background: #ffffff;
+  top: 28rpx;
+  z-index: 10;
+  box-sizing: border-box;
+  padding: 10rpx 20rpx;
+  font-size: 24rpx;
+}
+

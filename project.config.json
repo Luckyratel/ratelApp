@@ -39,6 +39,10 @@
 			"currentL": -1,
 			"list": []
 		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
 		"miniprogram": {
 			"current": 2,
 			"list": [
@@ -50,9 +54,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "waterfall-display",
-					"pathName": "pages/display/waterfall-display/waterfall-display",
+					"id": 1,
+					"name": "pages/display/progress/progress",
+					"pathName": "pages/display/progress/progress",
 					"query": "",
 					"scene": null
 				},

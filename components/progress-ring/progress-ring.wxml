@@ -1,0 +1,7 @@
+<!--components/progress-ring/progress-ring.wxml-->
+<view class="ring-panel" bindtap="startRun">
+  <view class="" >点击一下</view>
+  <view class="ring-canvas"  id="">
+    <canvas canvas-id="ring-pro" id="ring-pro" class="canvas"></canvas>
+  </view>
+</view>

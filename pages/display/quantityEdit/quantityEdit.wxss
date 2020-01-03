@@ -2,12 +2,11 @@
 .container{
   height: 100%;
   width: 100%;
-  background: #FFFFFF;
+  background: #F3F3F3;
 }
 .container .quantityPanel{
   height: 100rpx;
   width: 100%;
   padding: 160rpx;
   box-sizing: border-box;
-
 }

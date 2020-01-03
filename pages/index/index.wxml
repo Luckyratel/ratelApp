@@ -27,4 +27,8 @@
     <basic-item title="条形码" label="" bindgopageTab="goBarCode"></basic-item>
   </view>
 
+  <view class='basicItem'>
+    <basic-item title="进度条" label="" bindgopageTab="goProTab"></basic-item>
+  </view>
+
 </view>

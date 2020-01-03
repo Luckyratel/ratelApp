@@ -1,0 +1,13 @@
+/* components/progress-ring/progress-ring.wxss */
+.ring-panel{
+  width: calc(100% - 60rpx);
+  margin-left: 30rpx;
+  box-sizing: border-box;
+  padding: 40rpx;
+  background: #ffffff;
+}
+.canvas{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 0rpx auto;
+}

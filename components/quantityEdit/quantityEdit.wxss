@@ -5,6 +5,8 @@
   display: flex;
   border-radius: 10rpx;
   border: 1px solid #F3F3F3;
+  background: #ffffff;
+
 }
 .edit-panel .sub,.add{
   height: 80rpx;

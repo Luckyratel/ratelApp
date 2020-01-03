@@ -1,0 +1,9 @@
+<!--pages/display/progress/progress.wxml-->
+<view class="">
+  <view class="animaionLabel">动画进度条</view>
+  <progress progressDate="{{progressDate}}"></progress>
+  <view class="ringViewPanel">
+    <view class="ring-progress-label">环形进度条</view>
+    <ring></ring>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "进度条",
+  "usingComponents": {
+    "progress": "/components/progress/progress",
+    "ring": "/components/progress-ring/progress-ring"
+  }
+}

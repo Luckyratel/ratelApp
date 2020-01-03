@@ -49,7 +49,12 @@ Page({
     wx.navigateTo({
       url: '/pages/display/barCode/barCode',
     })
-  }
+  },
 
+  goProTab: function() {
+    wx.navigateTo({
+      url: '/pages/display/progress/progress',
+    })
+  }
  
 })
