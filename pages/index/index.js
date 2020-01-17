@@ -55,6 +55,12 @@ Page({
     wx.navigateTo({
       url: '/pages/display/progress/progress',
     })
+  },
+
+  goCustomTab: function() {
+    wx.navigateTo({
+      url: '/pages/display/custom-nav/custom-nav',
+    })
   }
  
 })

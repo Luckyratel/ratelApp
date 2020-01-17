@@ -1,0 +1,33 @@
+/* components/custom-nav/custom-nav.wxss */
+.nav-panel{
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  box-sizing: border-box;
+}
+.content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.content .left{
+  position: absolute;
+  left: 20rpx;
+  z-index: 10;
+  height: 100%;
+  border: 1px solid #bfbfbf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 10rpx;
+  padding-right: 14rpx;
+  width: 150rpx;
+
+}
+.left image{
+  height: 40rpx;
+  width: 40rpx;
+}

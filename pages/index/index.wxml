@@ -31,4 +31,8 @@
     <basic-item title="进度条" label="" bindgopageTab="goProTab"></basic-item>
   </view>
 
+  <view class='basicItem'>
+    <basic-item title="自定义导航栏" label="" bindgopageTab="goCustomTab"></basic-item>
+  </view>
+
 </view>

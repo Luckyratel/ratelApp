@@ -1,0 +1,4 @@
+<!--pages/display/custom-nav/custom-nav.wxml-->
+<view>
+  <navbar bindhomeTab="goHome"></navbar>
+</view>

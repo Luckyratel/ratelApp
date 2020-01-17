@@ -55,8 +55,8 @@
 				},
 				{
 					"id": 1,
-					"name": "pages/display/progress/progress",
-					"pathName": "pages/display/progress/progress",
+					"name": "自定义导航栏",
+					"pathName": "pages/display/custom-nav/custom-nav",
 					"query": "",
 					"scene": null
 				},

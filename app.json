@@ -8,7 +8,8 @@
     "pages/display/quantityEdit/quantityEdit",
     "pages/display/qrCode/qrCode",
     "pages/display/barCode/barCode",
-    "pages/display/progress/progress"
+    "pages/display/progress/progress",
+    "pages/display/custom-nav/custom-nav"
   ],
   "window": {
     "backgroundTextStyle": "light",

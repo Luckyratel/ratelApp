@@ -1,0 +1,10 @@
+<!--components/custom-nav/custom-nav.wxml-->
+<view class="nav-panel" style="height: {{navHeight}}px; padding-top: {{top}}px;">
+  <view class="content" style="height: {{height}}px;">
+    <view class="left" style ="border-radius: {{height / 2}}px;">
+      <image class="back" src="/images/back.png" bindtap="goBack"></image>
+      <image class="home" src="/images/home.png" bindtap="goHome"></image>
+    </view>
+    <view class="center">{{title}}</view>
+  </view>
+</view>
