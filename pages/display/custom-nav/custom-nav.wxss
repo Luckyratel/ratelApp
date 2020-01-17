@@ -1,1 +1,6 @@
 /* pages/display/custom-nav/custom-nav.wxss */
+page{
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+}
