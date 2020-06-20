@@ -34,5 +34,8 @@
   <view class='basicItem'>
     <basic-item title="自定义导航栏" label="" bindgopageTab="goCustomTab"></basic-item>
   </view>
+  <view class='basicItem'>
+    <basic-item title="公众号文章" label="" bindgopageTab="goTest"></basic-item>
+  </view>
 
 </view>

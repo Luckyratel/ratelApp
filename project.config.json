@@ -61,9 +61,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "swiperCenter",
-					"pathName": "pages/display/swiperCenter/swiperCenter",
+					"id": 2,
+					"name": "pages/display/area-tap/area-tap",
+					"pathName": "pages/display/area-tap/area-tap",
 					"query": "",
 					"scene": null
 				}

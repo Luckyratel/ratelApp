@@ -1,0 +1,9 @@
+/* pages/display/area-tap/area-tap.wxss */
+.tap-point{
+  height: 40rpx;
+  width: 40rpx;
+  background: #000000;
+  color: #ffff;
+  margin-top: 40rpx;
+  margin-left: 40rpx
+}

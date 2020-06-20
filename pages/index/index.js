@@ -10,6 +10,11 @@ Page({
   onShow:function(){
 
   },
+  goTest:function(){
+    wx.navigateTo({
+      url: '/pages/display/test/test',
+    })
+  },
   goPage:function(){
     wx.navigateTo({
       url: '/pages/display/topNav/topNav',

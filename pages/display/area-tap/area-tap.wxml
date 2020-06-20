@@ -1,0 +1,2 @@
+<!--pages/display/area-tap/area-tap.wxml-->
+<view id="point" class="tap-point" bindtap="getLocation">点</view>
